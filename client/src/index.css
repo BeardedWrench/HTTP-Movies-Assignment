@@ -75,3 +75,40 @@ body {
   color: red;
   text-align: center;
 }
+
+.update-container{
+  width:70%;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.update-container form{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.update-container form input{
+  width:50%;
+}
+.update-container form button{
+  margin-top:10px;
+  font-weight:bold;
+  outline:none;
+  background:lightskyblue;
+  color:black;
+  border:none;
+  padding:10px;
+}
+.update-container form button:hover{
+  background:rgb(166, 220, 253);
+}
+.stars-label{
+  font-size:1.5rem;
+  font-weight:bold;
+  text-align:left;
+  margin-top:10px;
+  margin-bottom:10px;
+}
